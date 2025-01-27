@@ -1,0 +1,100 @@
+body {
+    /*background-image: url(https://s1.picswalls.com/wallpapers/2016/06/06/beach-high-quality-wallpaper_090609745_305.jpg);*/
+    background-image: url(../static/beach_1.webp);
+    background-size: cover;
+    
+}
+
+
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Білий колір з 80% непрозорості */
+    backdrop-filter: blur(1px); /* Розмиття фону для покращення вигляду */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Тонка рамка для візуального розділення */
+}
+
+
+.task_container {
+    width: 18%;
+    min-height: 100px;
+    border-radius: 15px;
+    background-color: rgb(242, 243, 245);
+    border: none;
+    margin-left: 7%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Відносне позиціонування контейнера */
+    padding: 0.7%;
+}
+
+
+
+.top_text {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(154, 122, 105);
+    display: inline-block; /* Для збереження місця під текст */
+}
+
+
+
+.more_button {
+    border-radius: 5px; /* Закруглення кутів */
+    background-color: rgb(242, 243, 245);
+    color: rgb(67, 81, 113);
+    border: none;
+    cursor: pointer; /* Зміна курсора при наведенні */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавний перехід */
+    position: absolute; /* Абсолютне позиціонування */
+    top: 15px; /* Відступ від верхнього краю */
+    right: 15px; /* Відступ від правого краю */
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання іконки */
+    align-items: center; /* Вертикальне вирівнювання іконки */
+    width: 32px; /* Ширина кнопки */
+    height: 32px; /* Висота кнопки */
+}
+
+.more_button:hover {
+    background-color: rgb(209, 214, 220); /* Трохи сіріший фон */
+    color: rgb(38, 46, 61); /* Темніший текст */
+}
+
+
+
+.input-container {
+    border: 1px;
+}
+
+.goal_input{
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgb(67, 81, 113);
+    border-radius: 5px;
+}
+
+
+
+.add_deadline_button {
+    width: 225px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(242, 243, 245);
+    color: rgb(67, 81, 113);
+    border: none;
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px; /* Відступ для кнопки */
+}
+
+.add_deadline_button:hover {
+    background-color: rgb(209, 214, 220);
+    color: rgb(38, 46, 61);
+}
+
